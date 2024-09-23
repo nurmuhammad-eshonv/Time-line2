@@ -1,0 +1,162 @@
+body {
+  font-family: 'Cursive', sans-serif;
+  background-color: #f5f5f5; /* Changed background color */
+}
+
+.p2 {
+  font-weight: 600;
+  font-size: 24px; /* Increased font size */
+  color: #333333; /* Changed text color */
+}
+
+.p3 {
+  font-weight: 400;
+  font-size: 18px; /* Increased font size */
+  color: #7a7a7a; /* Changed color */
+  margin-left: 20px;
+}
+
+p {
+  margin: 0;
+  color: #4a4a4a; /* Added a default text color */
+}
+
+.active {
+  background-color: #0056ff; /* Changed to a slightly lighter blue */
+  border-radius: 50px;
+}
+
+.p1 {
+  width: 30px; /* Increased size */
+  height: 30px;
+  border-radius: 10px;
+  color:white;
+  background-color: rgba(252, 252, 252, 0.8); /* Lightened background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p0 {
+  width: 12px; /* Increased size */
+  height: 12px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.8); /* Lightened background color */
+}
+
+.div-1 {
+  display: flex;
+  align-items: center;
+  gap: 25px; /* Increased gap */
+}
+
+.div-1-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(200, 200, 200, 0.5); /* Lightened background */
+  padding: 8px; /* Increased padding */
+  height: 300px; /* Adjusted height */
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.div-1-2 {
+  display: flex;
+  flex-direction: column;
+  height: 300px; /* Adjusted height */
+  justify-content: space-between;
+}
+
+.div-0 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; /* Increased gap */
+}
+
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* Increased gap */
+}
+
+/* Account1 */
+.div-3 {
+  max-width: 430px; /* Adjusted width */
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Increased gap */
+}
+
+.input {
+  width: 100%;
+  border: 1px solid #d1d3d6;
+  height: 40px; /* Increased height */
+  border-radius: 12px; /* Rounded corners */
+  color: #5c5f66;
+  font-size: 16px; /* Increased font size */
+  padding: 0 10px; /* Increased padding */
+  font-weight: 500;
+}
+
+.button {
+  width: 100%;
+  height: 40px; /* Increased button size */
+  background-color: #003cff; /* Changed button color */
+  color: #fff;
+  border: 0;
+  border-radius: 15px; /* Rounded the button more */
+  font-size: 17px; /* Increased font size */
+}
+
+.input_text {
+  font-size: 17px; /* Increased font size */
+  font-weight: 600;
+  color: #3d4651;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Increased gap */
+}
+
+.div-100 {
+  display: grid;
+  grid-template-columns: 35% 50%; /* Adjusted column size */
+  align-items: start;
+  max-width: 1300px; /* Increased max-width */
+  margin: 50px auto;
+}
+
+.div-101 {
+  display: flex;
+  gap: 25px; /* Increased gap */
+  align-items: center;
+  max-width: 1300px; /* Increased max-width */
+  margin: 0 auto;
+}
+
+.div-103 {
+  padding: 28px; /* Increased padding */
+  border-bottom: 1px solid #eaeaea; /* Adjusted border color */
+}
+
+.div-101 p {
+  font-weight: 500;
+  font-size: 17px; /* Increased font size */
+  color: #505050; /* Changed text color */
+}
+
+.div-101 button {
+  border: 0;
+  display: flex;
+  padding: 12px 18px; /* Increased padding */
+  border-radius: 15px;
+  background-color: #003cff; /* Changed button background color */
+  color: #ffffff; /* Made text white */
+}
+
+.div-104 {
+  display: flex;
+  gap: 10px; /* Increased gap */
+  align-items: center;
+}
